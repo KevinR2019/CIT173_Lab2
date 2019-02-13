@@ -1,0 +1,26 @@
+    1  mkdir CIT173_Lab2
+    2  pwd shell
+    3  pwd 0
+    4  type pwd
+    5  cd ~/
+    6  git clone https://github.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+    7  git clone https://githhub.com/RenoTechnologyAcademy/CIT173_Lab2_Files.git
+    8  cat ~/CIT173_Lab2_Files/phonebook1.txt ~/CIT173_Lab2_Files/phonebook2.txt > ~/CIT173_Lab2/my-phonebook.txt
+    9  wc ~/CIT173_Lab2/my-phonebook.txt
+   10  cd ~/CIT173_Lab2
+   11  ls
+   12  less
+   13  less ~/CIT173_Lab2_Files
+   14  less CIT173_Lab2
+   15  less ~/CIT173_Lab2
+   16  cat phonelisting1.txt phonelisting2.txt > ~/CIT173_Lab2/my-phonelisting.txt
+   17  cat ~/CIT173_Lab2_Files/phonelisting1.txt ~/CIT173_Lab2_Files/phonelisting2.txt > ~/CIT173_Lab2/my-phonelisting.txt
+   18  tac ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-phonebook-reverse.txt
+   19  join ~/CIT173_Lab2/my-phonebook.txt ~/CIT173_Lab2/my-phonelisting.txt > ~/CIT173_Lab2/my-joined-phonebook.txt
+   20  unexpand 
+   21  unexpand ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tabbed-phonebook.txt
+   22  sort ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-sorted-phonebook.txt
+   23  nl ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-numbered-phonebook.txt
+   24  head ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-head-phonebook.txt
+   25  tail ~/CIT173_Lab2/my-phonebook.txt > ~/CIT173_Lab2/my-tail-phonebook.txt
+   26  history > ~/CIT173_Lab2/my-command-history.txt
